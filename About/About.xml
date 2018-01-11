@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>CCP's Plant Stuff</name>
+  <author>cucumpear</author>
+  <targetVersion>0.18.0</targetVersion>
+  <description> Some plants and gardening type stuff. Adds various wild and cultivated plants, garden paths, outdoors lighting, a light column, and some raised planter beds. It also patches vanilla roses, daylilies and clivias to use random textures and extends the lifespan of wild vanilla plants, so they don't all die over winter.</description>
+</ModMetaData>

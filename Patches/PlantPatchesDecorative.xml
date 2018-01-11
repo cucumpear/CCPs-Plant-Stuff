@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--=====================  Decorative Cultivated ========================-->
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PlantRose"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Rose</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PlantDaylily"]/graphicData</xpath>
+	  <value>
+	    <graphicData>
+		  <texPath>Daylily</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+	  </value>
+	</Operation>	
+
+</Patch>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!--=====================  Wild Swamp ========================-->
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantChokevine"]/plant</xpath>
+	  <value>
+		  <lifespanFraction>13</lifespanFraction>
+		  <dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+
+</Patch>

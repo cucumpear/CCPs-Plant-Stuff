@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--=====================  Wild Arid ========================-->
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantAgave"]/plant</xpath>
+	  <value>
+			<reproduceMtbDays>25</reproduceMtbDays>
+			<lifespanFraction>22</lifespanFraction>
+			<dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantPincushionCactus"]/plant</xpath>
+	  <value>
+			<reproduceMtbDays>35</reproduceMtbDays>
+			<lifespanFraction>27</lifespanFraction>
+			<dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+
+</Patch>

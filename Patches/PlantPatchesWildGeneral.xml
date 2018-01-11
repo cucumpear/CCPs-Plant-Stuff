@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--=====================  Wild General ========================-->
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantGrass"]/plant</xpath>
+	  <value>
+			<lifespanFraction>30</lifespanFraction>
+			<dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantTallGrass"]/plant</xpath>
+	  <value>
+			<lifespanFraction>22</lifespanFraction>
+			<dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantBush"]/plant</xpath>
+	  <value>
+			<reproduceMtbDays>14</reproduceMtbDays>
+			<lifespanFraction>22</lifespanFraction>
+			<dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantBrambles"]/plant</xpath>
+	  <value>
+			<reproduceMtbDays>14</reproduceMtbDays>
+			<lifespanFraction>22</lifespanFraction>
+			<dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantWildHealroot"]/plant</xpath>
+	  <value>
+			<reproduceMtbDays>14</reproduceMtbDays>
+			<lifespanFraction>12</lifespanFraction>
+	  </value>
+	</Operation>
+
+</Patch>

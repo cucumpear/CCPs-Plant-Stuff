@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--=====================  Wild Temperate ========================-->
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantDandelion"]/plant</xpath>
+	  <value>
+		  <lifespanFraction>25</lifespanFraction>
+		  <dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantAstragalus"]/plant</xpath>
+	  <value>
+		  <lifespanFraction>25</lifespanFraction>
+		  <dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>	
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantMoss"]/plant</xpath>
+	  <value>
+		  <reproduceMtbDays>12</reproduceMtbDays>
+		  <lifespanFraction>9</lifespanFraction>
+	  </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "PlantRaspberry"]/plant</xpath>
+	  <value>
+			<reproduceMtbDays>14</reproduceMtbDays>
+			<lifespanFraction>22</lifespanFraction>
+			<dieIfLeafless>false</dieIfLeafless>
+	  </value>
+	</Operation>	
+
+</Patch>
